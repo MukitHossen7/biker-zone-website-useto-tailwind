@@ -4,11 +4,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .latest-section-card {
-  @apply bg-white shadow-md p-5 border-2 border-gray-200 rounded-lg;
+  @apply bg-white shadow-sm p-5 border-2 border-gray-200 rounded-lg;
 }
 .latest-section-card-h2 {
   @apply text-[#18191F] text-[28px] font-semibold mb-3;
 }
 .latest-section-card-p {
   @apply text-[#6C6C6C] text-base font-normal mb-10;
+}
+.happy-clients-card {
+  @apply flex flex-col items-center text-center bg-white py-10 px-9 shadow-sm rounded-lg border-2 border-gray-200;
+}
+.happy-clients-card-p {
+  @apply text-[#6C6C6C] font-normal text-base mb-4;
+}
+.happy-clients-card-div-icon {
+  @apply flex gap-2 items-center mb-4;
+}
+.happy-clients-card-h3 {
+  @apply text-[#23A6F0] font-bold text-sm mb-4;
+}
+.happy-clients-card-h4 {
+  @apply text-[#252B42] font-bold text-sm;
 }
