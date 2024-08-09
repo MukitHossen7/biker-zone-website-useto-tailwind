@@ -27,3 +27,9 @@
 .happy-clients-card-h4 {
   @apply text-[#252B42] font-bold text-sm;
 }
+.frequently-questions-card-h2 {
+  @apply font-semibold text-xl text-[#383838];
+}
+.frequently-questions-card {
+  @apply bg-white shadow-sm py-5 px-6 border-2 border-[#d5e5fb] rounded-lg;
+}
