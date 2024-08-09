@@ -7,7 +7,7 @@
   @apply bg-white shadow-sm p-5 border-2 border-gray-200 rounded-lg;
 }
 .latest-section-card-h2 {
-  @apply text-[#18191F] text-[28px] font-semibold mb-3;
+  @apply text-[#18191F] text-[27px] font-semibold mb-3;
 }
 .latest-section-card-p {
   @apply text-[#6C6C6C] text-base font-normal mb-10;
